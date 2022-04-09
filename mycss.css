@@ -1,0 +1,890 @@
+*{
+    margin: 0px;  
+}
+/*网站主要部分*/  /*先把头部，尾部做好，在做中间部分*/
+*body{background-color: rgb(46, 175, 187);}
+
+#t0{width: 1536px; height: 4px; background-color:rgb(46, 175, 187);
+    position: absolute; margin-top:0px}
+
+#t1{width: 1536px; height: 34px; background-color: rgb(241, 241, 241); text-indent: 260px; font-size: 12px; 
+    position: absolute; padding-top: 6px; margin-top: 4px; }
+
+#t2{width: 1536px; height: 100px; background-color:white;  font-size: 12px; position: absolute; margin-top: 38px;}
+
+#t3{width: 1536px; height: 40px; background-color: rgb(46, 175, 187); text-indent: 220px; font-size: 12px;
+    position: absolute; margin-top: 138px;}
+
+/*以上为导航栏之上内容*/
+
+#t4{width: 1536px; height: 1380px; background-color: rgb(241, 241, 241);
+    position: absolute; margin-top: 178px;}
+
+#t5{width: 1536px; height: 220px; background-color: rgb(46, 175, 187);  font-size: 12px; position: absolute;
+     margin-top: 1558px; float: left;}
+/*以上为导航栏之下内容*/
+
+#t1 td p2 a{text-decoration: none; color:black;}
+
+#t1 td p1{color: rgb(217, 72, 64); } #t1 td p2{margin-left: 55px;} #t1 td p1 a{color:rgb(56, 0, 253); }
+
+#t2 td{height: 115px;}  #t2 .pc1{margin-bottom: 8px; margin-right: 1px; float: right;} 
+
+#t2 .pc2{margin-bottom: 4px; float: left;}  #t2 td p2{float: left; margin-bottom: 18px; text-indent: 7px; color:rgb(46, 175, 187);}
+
+#t3 p{ margin-left: 40px; margin-top: 8px;}
+#t3 p a{text-align: center; font-size: 14px; font-family: 微软雅黑,Arial, Helvetica, sans-serif; color: white;
+     text-decoration: none; margin-left: 5px; margin-right: 5px;}
+
+#t5 p1{ margin-left: 240px; font-size: 15px; font-weight: 700; color: rgb(186, 241, 245);}
+#t5 p2{ margin-left: 240px;  color: rgb(40, 150, 161);}
+
+#t5 .bottom1{
+    font-size: 12px; font-family: 微软雅黑,Arial, Helvetica, sans-serif; color: rgb(186, 241, 245);list-style: none; 
+    margin-left: 240px;
+}
+#t5 .bottom1 p{
+    padding-top: 10px;
+}
+#t5 .bottom1 p a{
+   text-decoration: none;
+   color: rgb(186, 241, 245);
+}
+#t5 .bottom1 a{ text-decoration: none;
+    color: rgb(186, 241, 245);}
+#t5 td .bottom1 .b1{ text-decoration: none;
+        color:rgb(227, 253, 251);}
+
+#botr{margin-top: 0px; padding: 0px;}
+
+#botr p3{ margin-left: 5px; font-size: 15px; font-weight: 700; color: rgb(186, 241, 245); margin-top: 0px;}
+
+#botr p4{ margin-left: 5px;  color: rgb(40, 150, 161);}
+
+#botr p{
+    padding-top: 9px; font-size: 12px; font-family: Arial, Helvetica, sans-serif; margin-left: 4px;
+}
+#botr a{
+    color: rgb(227, 253, 251); text-decoration: none;
+}
+
+        /*内容部分*/ /*第一层div 总体框架*/
+
+#div1{
+    width: 1536px; height: 320px; position: absolute; margin-top: 0px; background-color: rgb(241, 241, 241); float: left;
+}
+#div2{
+    width: 1536px; height: 340px; position: absolute; margin-top: 320px; background-color: rgb(241, 241, 241); float: left;
+}
+#div3{
+    width: 1536px; height: 340px; position: absolute; margin-top: 660px; background-color:  rgb(241, 241, 241); float: left;
+}
+#div4{
+    width: 1536px; height: 380px; position: absolute; margin-top: 1000px; background-color:  rgb(241, 241, 241); float: left;
+}
+/*第二层div 大框架*/
+
+#div1 .div1a{
+    width: 993px; position: absolute; margin-top: 20px; margin-left: 265px;
+    height: 280px; background-color: white; border: 1px solid rgb(230,230,230);
+}
+#div2 .div1b{
+    width: 993px; position: absolute; margin-top: 2px; margin-left: 265px;
+    height: 317px; background-color: white; border: 1px solid rgb(230,230,230);
+}
+#div3 .div1c{
+    width: 993px; position: absolute; margin-top: 2px; margin-left: 265px;
+    height: 315px; background-color: white; border: 1px solid rgb(230,230,230);
+}
+#div4 .div1d{
+    width: 993px; position: absolute; margin-top: 0px; margin-left: 265px;
+    height: 355px; background-color: white; border: 1px solid rgb(230,230,230);
+}
+/*主体上部详细部分 从左到右  框架*/ 
+.div1a #A1{
+    width: 339px;
+    height: 280px;
+    background-color: white; border-right: 1px solid  rgb(230,230,230) ;
+    float: left;
+}
+.div1a #A2{
+    width: 439px;
+    height: 279px;
+    background-color: rgb(255, 255, 255); border-right: 2px solid  rgb(230,230,230) ;
+    float: left; 
+}
+.div1a #A3{
+    width: 212px;
+    height: 280px;
+    background-color: rgb(255, 255, 255); 
+    float: left;
+}
+/*图片定位*/
+.div1a #A1 img{
+    margin-top: 14px; margin-left: 14px;
+    position: absolute;
+}
+/*主体上部详细部分   A2a1板块具体框架*/ 
+.div1a #A2 #A2a1{
+     width: 403px; height: 50px; position: absolute; background-color: rgb(255, 255, 255); float: left; margin-left: 18px; margin-top: 0px; border-bottom: 1px solid rgb(46, 175, 187); 
+}
+.div1a #A2 #A2a1a{
+    width: 40px;
+    height: 20px;  margin-top: 15px;
+    position: absolute; background-color: rgb(255, 255, 255); float: left; color:rgb(40, 150, 161); font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+} 
+.div1a #A2 #A2a1 #A2a1b{
+    width: 180px; height: 20px; position: absolute; background-color: rgb(255, 255, 255); float: left; margin-top: 15px; margin-left: 236px;
+}
+
+.div1a #A2 #A2a1 #A2a1b ul{font-size: 12px; float: left; font-weight: 700; color:rgb(40, 150, 161);}
+.div1a #A2 #A2a1 #A2a1b ul li{display: inline; margin-left: 4px;}
+
+/*主体上部详细部分   A2a2板块具体框架*/ 
+.div1a #A2 #A2a2{
+    width: 400px; height: 86px; position: absolute; background-color: rgb(255, 255, 255); float: left;
+    margin-top:60px ; text-align: center; 
+}
+.div1a #A2 #A2a2 ul{list-style: none;}
+.div1a #A2 #A2a2 ul li{margin-top: 4px;}
+.div1a #A2 #A2a2 .A2a2c1{font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: rgb(217,72,64); text-decoration: none;}
+.div1a #A2 #A2a2 a{font-size: 12px; color: black; text-decoration: none;}
+.div1a #A2 #A2a2 .A2a2l1{font-size: 1px; margin-top: 6px; color: rgb(230, 230, 230);}
+/*主体上部详细部分   A2a3板块具体框架*/ 
+.div1a #A2 #A2a3{
+    width: 396px; height: 120px; position: absolute; background-color: rgb(255, 255, 255);float: left;
+    margin-top: 155px; 
+}
+.div1a #A2 #A2a3 ul{list-style: none;}
+.div1a #A2 #A2a3 .A2a3c1{font-size: 16px; font-family: Arial, Helvetica, sans-serif; color: rgb(40, 150, 161); text-decoration: none;}
+.div1a #A2 #A2a3 ul li{margin-top: 5px; text-align: center;}
+.A2a3l1 a span{color:  rgb(40, 150, 161);}
+.div1a #A2 #A2a3 a{font-size: 12px; color: black; text-decoration: none;}
+
+/*主体上部详细部分   A3板块具体框架*/ 
+/*A3板块分为两个部分  A3a1 A3a2*/
+/*A3a1*/
+.div1a #A3 #A3a1{ 
+    width: 212px; height: 51px; position: absolute; background-color: rgb(255, 255, 255);  border-bottom: 1px solid rgb(230,230,230) ; 
+}
+.div1a #A3 #A3a1 h4{margin-top: 15px; margin-left: 18px; color: rgb(46, 175, 187);} 
+/*A3a2*/
+.div1a #A3 #A3a2{ 
+    width: 200px; height: 220px; position: absolute; margin-top: 52px; background-color: rgb(255, 255, 255);
+}
+.div1a #A3 #A3a2 ul li a{text-decoration: none; color: black;}
+.div1a #A3 #A3a2 ul li{
+    margin-top: 8px; font-size: 12px; margin-left: -8px;
+}
+
+/*主体第二部分*/
+
+/*主体第二部分详细部分   从左到右  框架*/ 
+.div1b #A1{
+    width: 779px;
+    height: 317px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;  float: left; border-right: 2px solid rgb(230, 230, 230); margin-left: 0px;
+}
+.div1b #A2{
+    width: 212px;
+    height: 317px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;  float: left; margin-left: 781px;
+}
+
+/*第二部分A1部分 分类 A1a1*/
+.div1b #A1 #A1a1{
+    width: 779px; height: 50px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+.div1b #A1 #A1a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*第二部分A1部分 分类 A1b1,A1b2,A1b3*/
+
+.div1b #A1 #A1b1{
+    width: 255px;
+    height: 266px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; float: left; border-right: 1px solid rgb(230, 230, 230);
+}
+.div1b #A1 #A1b2{
+    width: 255px;
+    height: 266px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; margin-left: 256px; float: left; border-right: 1px solid rgb(230, 230, 230);
+}
+.div1b #A1 #A1b3{
+    width: 267px;
+    height: 266px; background-color: rgb(252, 252, 252); position: absolute; margin-top: 51px; margin-left: 512px; float: left; 
+}
+/*第二部分 A1b1部分详细*/
+.div1b #A1 #A1b1 p{
+    margin-top: 25px; margin-left: 80px; font-size: 14px; font-weight: 700; 
+}
+.div1b #A1 #A1b1 p a{text-decoration: none; color: black;}
+/*第二部分小图片tb1加入*/
+.div1b #A1 #A1b1pt{
+    width: 47px; height: 47px; position: absolute; margin-top: 64px; margin-left: 23px; background-color: rgb(255, 255, 255);
+}
+.div1b #A1 #A1b1 .A1b1c1{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 22px; font-weight: normal; color: rgb(102, 102, 102);
+}
+.div1b #A1 #A1b1 .A1b1c2 /*分界线*/
+{
+    font-size: 1px; text-align: center; margin-top: 4px; margin-left: 0px; color:rgb(230,230,230) ;
+}
+.div1b #A1 #A1b1 .A1b1c3{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 4px; font-weight: normal; color:rgb(102, 102, 102);
+}
+/*表单*/
+.div1b #A1 #A1b1 ul{
+    margin-left: 4px; list-style: none; margin-top: 7px; float: left;
+}
+.div1b #A1 #A1b1 ul li{
+    font-size: 12px; margin-top: 6px;
+}
+
+/*A1b2*/
+
+.div1b #A1 #A1b2 p{
+    margin-top: 25px; margin-left: 80px; font-size: 14px; font-weight: 700; 
+}
+.div1b #A1 #A1b2 p a{text-decoration: none; color: black;}
+/*第二部分小图片tb2加入*/
+.div1b #A1 #A1b2pt{
+    width: 47px; height: 47px; position: absolute; margin-top: -218px; margin-left: 23px; background-color: rgb(255, 255, 255);
+}
+.div1b #A1 #A1b2 .A1b2c1{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 22px; font-weight: normal; color: rgb(102, 102, 102);
+}
+.div1b #A1 #A1b2 .A1b2c2 /*分界线*/
+{
+    font-size: 1px; text-align: center; margin-top: 4px; margin-left: 0px; color:rgb(230,230,230) ;
+}
+.div1b #A1 #A1b2 .A1b2c3{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 4px; font-weight: normal; color:rgb(102, 102, 102);
+}
+/**/
+.div1b #A1 #A1b2 .A1b2c4 a{
+    text-decoration: none; color: black;
+}
+.div1b #A1 #A1b2 .A1b2c4{
+    font-size: 12px; margin-left: 38px; margin-top: 10px; font-weight: normal; color: rgb(102, 102, 102);
+}
+.div1b #A1 #A1b2 ul{
+    margin-left: -3px; list-style: none; margin-top: 7px; 
+}
+.div1b #A1 #A1b2 ul li{
+    font-size: 12px; margin-top: 2px; float: left; margin-left: 0px; color: rgb(153, 153, 153) ;
+}
+/*A1b3*/
+
+
+.div1b #A1 #A1b3 p{
+    margin-top: 25px; margin-left: 80px; font-size: 14px; font-weight: 700; 
+}
+.div1b #A1 #A1b3 p a{text-decoration: none; color: black;}
+/*第二部分小图片tb3加入*/
+.div1b #A1 #A1b3pt{
+    width: 47px; height: 47px; position: absolute; margin-top: -112px; margin-left: 23px; background-color: rgb(255, 255, 255);
+}
+.div1b #A1 #A1b3 .A1b3c1{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 22px; font-weight: normal; color:rgb(102, 102, 102);
+}
+.div1b #A1 #A1b3 .A1b3c2 /*分界线*/
+{
+    font-size: 1px; text-align: center; margin-top: 4px; margin-left: 0px; color:rgb(230,230,230) ;
+}
+.div1b #A1 #A1b3 .A1b3c3{
+    font-size: 12px; margin-left: 22px; margin-right: 15px; margin-top: 4px; font-weight: normal; color:rgb(102, 102, 102);
+}
+/**/
+.div1b #A1 #A1b3 ul li a{
+    text-decoration: none; color: rgb(0, 0, 0) 
+}/*去除下划线*/
+
+.div1b #A1 #A1b3 ul{
+    margin-left: 0px; list-style: none; margin-top: 7px; list-style: none; text-decoration: none; 
+}
+.div1b #A1 #A1b3 ul li{
+    font-size: 12px; margin-top: 9px; float: left; margin-left: 0px; 
+}
+.div1b #A1 #A1b3 ul li span{
+    color: rgb(153, 153, 153);
+}
+
+/*A2b1  a1,a2,a3,a4为从上到下四个大块，先定位*/
+
+.div1b #A2 #A2a1{
+    width:212px ;  position: absolute; border-bottom: 1px solid rgb(230, 230, 230);
+    height: 50px;  background-color: rgb(255, 255, 255);   
+}
+
+.div1b #A2 #A2b1{
+    width:212px ;  position: absolute; border-bottom: 1px solid rgb(230, 230, 230);
+    height: 121px;  background-color: rgb(255, 255, 255);   margin-top: 51px;
+}
+.div1b #A2 #A2c1{
+    width:212px ;  position: absolute; border-bottom: 1px solid rgb(230, 230, 230);
+    height: 50px;  background-color: rgb(255, 255, 255);   margin-top: 174px;
+}
+.div1b #A2 #A2d1{
+    width:212px ;  position: absolute;
+    height: 92px;  background-color: rgb(255, 255, 255);   margin-top: 225px;
+}
+
+/*两个小标题h4 固定*/
+.div1b #A2 #A2a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+.div1b #A2 #A2c1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*b1部分段落*/
+.div1b #A2 #A2b1 p{
+    font-size: 12px; margin-top: 10px; margin-left: 19px;
+}
+/*输入验证码的文本框*/
+.div1b #A2 #A2d1 .A2d1c1{
+    margin-top: 15px; margin-left: 18px; color: rgb(153, 153, 153);
+}
+.div1b #A2 #A2d1 span{
+    background-color: rgb(242, 242, 242); font-size: 13px; padding: 2px; text-align: center; padding-left: 4px; padding-right: 4px; border: 1px solid rgb(214, 214, 214);
+}
+/*登录，注册块*/
+.div1b #A2 #A2b1c1{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    margin-top: 140px; padding-top: 5px;
+    margin-left: 17px;
+    background-color: rgb(46, 175, 187); float: left; text-align: center; font-size: 12px;
+}
+
+.div1b #A2 #A2b1c2{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    margin-top: 140px; padding-top: 5px;
+    margin-left: 115px;
+    background-color: rgb(46, 175, 187); float: left; text-align: center; font-size: 12px;
+}
+
+.div1b #A2 #A2b1c1 a{
+    text-decoration: none; color:white;
+}
+
+.div1b #A2 #A2b1c2 a{
+    text-decoration: none; color:white;
+}
+/*如何申请，报告特点块*/
+.div1b #A2 #A2d1c1{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    margin-top: 275px; padding-top: 5px;
+    margin-left: 17px;
+    background-color: rgb(46, 175, 187); float: left; text-align: center; font-size: 12px;
+}
+
+.div1b #A2 #A2d1c2{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    margin-top: 275px; padding-top: 5px;
+    margin-left: 115px;
+    background-color: rgb(46, 175, 187); float: left; text-align: center; font-size: 12px;
+}
+.div1b #A2 #A2d1c1 a{
+    text-decoration: none; color:white;
+}
+
+.div1b #A2 #A2d1c2 a{
+    text-decoration: none; color:white;
+}
+
+/*主体第三部分*/
+
+/*主体第三部分详细部分   从左到右  框架*/ 
+.div1c #A1{
+    width: 779px;
+    height: 315px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;  float: left; border-right: 2px solid rgb(230, 230, 230); margin-left: 0px;
+}
+.div1c #A2{
+    width: 212px;
+    height: 315px;
+    background-color: rgb(28, 54, 201);
+    position: absolute;  float: left; margin-left: 781px;
+}
+
+/*细分A1中的： A1a1,*/
+
+.div1c #A1 #A1a1{
+    width: 779px; height: 50px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+.div1c #A1 #A1a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*细分A1中的： A1b1,A1b2,A1b3,A1b4*/
+.div1c #A1 #A1b1{
+    width: 255px;
+    height: 264px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; float: left; border-right: 1px solid rgb(230, 230, 230);
+}
+.div1c #A1 #A1b2{
+    width: 255px;
+    height: 264px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; margin-left: 256px; float: left; border-right: 1px solid rgb(230, 230, 230);
+}
+.div1c #A1 #A1b3{
+    width: 267px;
+    height: 132px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; margin-left: 512px; float: left;  
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.div1c #A1 #A1b4{
+    width: 267px;
+    height: 131px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 184px; margin-left: 512px; float: left; 
+}
+
+
+/*A1b1中的详细部分*//*大模板*/
+.div1c #A1 #A1b1 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 102px;
+}
+.div1c #A1 #A1b1 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1c #A1 #A1b1 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 36px; color: rgb(102, 102, 102);
+}
+.div1c #A1 #A1b1 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 17px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1c #A1 #A1b1 #l1{
+    list-style: none;  font-size: 12px; margin-left: -4px; margin-top: 10px;
+}
+
+.div1c #A1 #A1b1 #l1 li{
+   margin-top: 8px;
+}
+/*对l1中a标签进行设置*/
+.div1c #A1 #A1b1 #l1 li a{
+    text-decoration: none; color: black;
+}
+/*无序列表l2*/
+.div1c #A1 #A1b1 #l2{
+    list-style: none;  font-size: 12px; margin-left: 105px; margin-top: -144px;
+}
+
+.div1c #A1 #A1b1 #l2 li{
+    margin-top: 8px;
+ }
+ /*对l1中a标签进行设置*/
+ .div1c #A1 #A1b1 #l2 li a{
+     text-decoration: none; color: black;
+ }
+
+/*A1b2中的详细部分*//*大模板*/
+.div1c #A1 #A1b2 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 104px;
+}
+.div1c #A1 #A1b2 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1c #A1 #A1b2 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 32px; color: rgb(102, 102, 102);
+}
+.div1c #A1 #A1b2 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 17px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1c #A1 #A1b2 #l1{
+    list-style: none;  font-size: 12px; margin-left: -4px; margin-top: 10px;
+}
+
+.div1c #A1 #A1b2 #l1 li{
+   margin-top: 8px;
+}
+/*对l1中a标签进行设置*/
+.div1c #A1 #A1b2 #l1 li a{
+    text-decoration: none; color: black;
+}
+/*无序列表l2*/
+.div1c #A1 #A1b2 #l2{
+    list-style: none;  font-size: 12px; margin-left: 110px; margin-top: -168px;
+}
+
+.div1c #A1 #A1b2 #l2 li{
+    margin-top: 8px;
+ }
+ /*对l1中a标签进行设置*/
+ .div1c #A1 #A1b2 #l2 li a{
+     text-decoration: none; color: black;
+ }
+
+
+
+/*A1b3中的详细部分*//*大模板*/
+.div1c #A1 #A1b3 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 104px;
+}
+.div1c #A1 #A1b3 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1c #A1 #A1b3 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 32px; color: rgb(102, 102, 102);
+}
+.div1c #A1 #A1b3 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 20px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1c #A1 #A1b3 #l1{
+    list-style: none;  font-size: 12px; margin-left: 20px;  
+}
+
+.div1c #A1 #A1b3 #l1 li{
+   margin-top: 13px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1c #A1 #A1b3 #l1 li a{
+    text-decoration: none; color: black;
+}
+
+
+/*A1b4中的详细部分*//*大模板*/
+.div1c #A1 #A1b4 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 98px;
+}
+.div1c #A1 #A1b4 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1c #A1 #A1b4 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 48px; color: rgb(102, 102, 102);
+}
+.div1c #A1 #A1b4 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 20px; color: rgb(230, 230, 230);
+}
+
+.div1c #A1 #A1b4 #l1{
+    list-style: none;  font-size: 12px; margin-left: 9px;  
+}
+
+.div1c #A1 #A1b4 #l1 li{
+   margin-top: 13px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1c #A1 #A1b4 #l1 li a{
+    text-decoration: none; color: black;
+}
+
+
+/*A2*/
+/*细分A2--A2a1,A2a2,A2a3 *//*大模板*/
+/*A2a1*/
+.div1c #A2 #A2a1{
+    width: 212px;
+    height: 50px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+.div1c #A2 #A2a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*A2a2*/
+.div1c #A2 #A2a2{
+    width: 212px; margin-top: 51px;
+    height: 132px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+/*A2a2文字部分*/
+.div1c #A2 #A2a2 #A2a2c1{
+    font-size: 12px; margin-top: 27px; margin-left: 110px; 
+}
+.div1c #A2 #A2a2 #A2a2c2{
+    font-size: 12px; margin-top: 0px; margin-left: 110px; 
+}
+.div1c #A2 #A2a2 #A2a2c3{
+    font-size: 12px; margin-top: 15px; margin-left: 109px; 
+}
+/*a标签修改*/
+.div1c #A2 #A2a2 #A2a2c3 a{
+     text-align: center; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; 
+     background-color: rgb(97, 185, 124); border-top-left-radius: 20px; border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px; border-bottom-right-radius: 20px;
+     text-decoration: none; color: white;
+}
+
+/*A2a3*/
+.div1c #A2 #A2a3{
+    width: 212px; margin-top: 184px;
+    height: 131px; position: absolute; float: left; background-color: rgb(255, 255, 255);
+}
+/*A2a3文字部分*/
+.div1c #A2 #A2a3 #A2a3c1{
+    font-size: 12px; margin-top: 27px; margin-left: 110px; 
+}
+.div1c #A2 #A2a3 #A2a3c2{
+    font-size: 12px; margin-top: 0px; margin-left: 110px; 
+}
+.div1c #A2 #A2a3 #A2a3c3{
+    font-size: 12px; margin-top: 15px; margin-left: 109px; 
+}
+/*a标签修改*/
+.div1c #A2 #A2a3 #A2a3c3 a{
+     text-align: center; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; 
+     background-color: rgb(25, 135, 222); border-top-left-radius: 20px; border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px; border-bottom-right-radius: 20px;
+     text-decoration: none; color: white;
+}
+/*两张微博图片*/
+.div1c #A2 #A2pt1{
+    width: 80px;
+    height: 80px;
+    position: absolute;  background-color: rgb(255, 255, 255); margin-top: 78px; margin-left: 20px;
+}
+.div1c #A2 #A2pt2{
+    width: 80px;
+    height: 80px;
+    position: absolute;  background-color: rgb(255, 255, 255); margin-top: 210px; margin-left: 20px;
+}
+
+
+/**//**//**//**/
+/*主体第四部分*/
+
+/*主体第四部分详细部分   从左到右  框架*/ 
+.div1d #A1{
+    width: 779px;
+    height: 355px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;  float: left; border-right: 2px solid rgb(230, 230, 230); margin-left: 0px;
+}
+.div1d #A2{
+    width: 212px;
+    height: 355px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;  float: left; margin-left: 781px;
+}
+
+/*细分A1中的： A1a1,*/
+
+.div1d #A1 #A1a1{
+    width: 779px; height: 50px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+.div1d #A1 #A1a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*细分A1中的： A1b1,A1b2,A1b3,A1b4,A1b5,A1b6*/
+.div1d #A1 #A1b1{
+    width: 255px;
+    height: 304px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; float: left; border-right: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1b2{
+    width: 255px;
+    height: 151px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; margin-left: 256px; float: left; 
+    border-bottom: 1px solid rgb(230, 230, 230); border-right: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1b3{
+    width: 255px;
+    height: 152px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 203px; margin-left: 256px; float: left; 
+    border-right: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1b4{
+    width: 267px;
+    height: 151px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 51px; margin-left: 512px; float: left; 
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1b5{
+    width: 267px;
+    height: 77px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 203px; margin-left: 512px; float: left; 
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1b6{
+    width: 267px;
+    height: 74px; background-color: rgb(255, 255, 255); position: absolute; margin-top: 281px; margin-left: 512px; float: left; 
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.div1d #A1 #A1f1{
+    width: 200px; height: 15px; background-color: rgb(255, 255, 255); position: absolute; margin-left: 270px; margin-top: 164px;
+}
+.div1d #A1 #A1f2{
+    width: 200px; height: 15px; background-color: rgb(255, 255, 255); position: absolute; margin-left: 269px; margin-top: 315px;
+}
+
+/*A1b1中的详细部分*//*大模板*/
+.div1d #A1 #A1b1 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 92px;
+}
+.div1d #A1 #A1b1 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1d #A1 #A1b1 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 55px; color: rgb(102, 102, 102);
+}
+.div1d #A1 #A1b1 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 17px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1d #A1 #A1b1 #l1{
+    list-style: none;  font-size: 12px; margin-left: -4px; margin-top: 10px;
+}
+
+.div1d #A1 #A1b1 #l1 li{
+   margin-top: 8px;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1b1 #l1 li a{
+    text-decoration: none; color: black;
+}
+/*无序列表l2*/
+.div1d #A1 #A1b1 #l2{
+    list-style: none;  font-size: 12px; margin-left: 105px; margin-top: -144px;
+}
+
+.div1d #A1 #A1b1 #l2 li{
+    margin-top: 8px;
+ }
+ /*对l2中a标签进行设置*/
+.div1d #A1 #A1b1 #l2 li a{
+    text-decoration: none; color: black;
+}
+
+/**//**/
+/*A1b2中的详细部分*//*大模板*/
+.div1d #A1 #A1b2 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 100px;
+}
+.div1d #A1 #A1b2 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1d #A1 #A1b2 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 48px; color: rgb(102, 102, 102);
+}
+.div1d #A1 #A1b2 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 20px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1d #A1 #A1b2 #l1{
+    list-style: none;  font-size: 12px; margin-left: 20px; margin-top: 0px; 
+}
+
+.div1d #A1 #A1b2 #l1 li{
+   margin-top: 13px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1b2 #l1 li a{
+    text-decoration: none; color: black;
+}
+/**//**/
+/**//**/
+/*A1b3中的详细部分*//*大模板*/
+.div1d #A1 #A1b3 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 105px;
+}
+.div1d #A1 #A1b3 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1d #A1 #A1b3 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 71px; color: rgb(102, 102, 102);
+}
+.div1d #A1 #A1b3 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 20px; color: rgb(230, 230, 230);
+}
+/*无序列表l1*/
+.div1d #A1 #A1b3 #l1{
+    list-style: none;  font-size: 12px; margin-left: 20px; margin-top: 0px; 
+}
+
+.div1d #A1 #A1b3 #l1 li{
+   margin-top: 13px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1b3 #l1 li a{
+    text-decoration: none; color: black;
+}
+/**//**/
+/**//**//**//**/
+/*A1b4中的详细部分*//*大模板*/
+.div1d #A1 #A1b4 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 77px;
+}
+.div1d #A1 #A1b4 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1d #A1 #A1b4 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 48px; color: rgb(102, 102, 102);
+}
+.div1d #A1 #A1b4 #p2{
+    font-size: 1px;  margin-top: 6px; margin-left: 20px; color: rgb(230, 230, 230);
+}
+/**//**/
+/*无序列表l1*/
+.div1d #A1 #A1b4 #l1{
+    list-style: none;  font-size: 12px; margin-left: 20px; margin-top: 0px; 
+}
+
+.div1d #A1 #A1b4 #l1 li{
+   margin-top: 13px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1b4 #l1 li a{
+    text-decoration: none; color: black;
+}
+/**//**/
+
+/*A1b5中的详细部分*//*大模板*/
+.div1d #A1 #A1b5 #a1{
+    font-size: 14px; font-weight: 700; margin-top: 13px; margin-left: 84px;
+}
+.div1d #A1 #A1b5 #a1 a{text-decoration: none; color: black;}
+/**/
+.div1d #A1 #A1b5 #p1{
+    font-size: 12px;  margin-top: 13px; margin-left: 48px; color: rgb(102, 102, 102);
+}
+/*A1b6中的详细部分*//*大模板*/
+.div1d #A1 #A1b6 #A1b6pt{
+    width:180px ; height:57px ; position: absolute; margin-top: 9px; margin-left: 43px;
+}
+
+/*A1f1中的详细部分*//*大模板*/
+/*无序列表l1*/
+.div1d #A1 #A1f1 #l1{
+    list-style: none;  font-size: 12px; margin-left: 0px; margin-top: 0px; 
+}
+
+.div1d #A1 #A1f1 #l1 li{
+   margin-top: 0px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1f1 #l1 li a{
+    text-decoration: none; color: black;
+}
+/*A1f2中的详细部分*//*大模板*/
+/*无序列表l1*/
+.div1d #A1 #A1f2 #l1{
+    list-style: none;  font-size: 12px; margin-left: 0px; margin-top: 0px; 
+}
+
+.div1d #A1 #A1f2 #l1 li{
+   margin-top: 0px; margin-left: 10px; float: left;
+}
+/*对l1中a标签进行设置*/
+.div1d #A1 #A1f2 #l1 li a{
+    text-decoration: none; color: black;
+}
+
+/*A2*/
+/*细分A2--A2a1,A2a2,A2a3 *//*大模板*/
+/*A2a1*/
+.div1d #A2 #A2a1{
+    width: 212px;
+    height: 50px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+.div1d #A2 #A2a1 h4{
+    margin-left: 19px;
+    margin-top: 15px; color: rgb(46, 175, 187);
+}
+/*A2a2*/
+.div1d #A2 #A2a2{
+    width: 212px; margin-top: 51px;
+    height: 304px; position: absolute; float: left; border-bottom: 1px solid rgb(230, 230, 230); background-color: white;
+}
+/*A2a2照片*/
+.div1d #A2 #A2a2 #A2a2pt{
+    width: 180px;
+    height: 284px;
+    position: absolute; margin-left: 16px; margin-top: 9px;
+}
